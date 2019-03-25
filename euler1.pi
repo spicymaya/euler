@@ -1,0 +1,7 @@
+my_array = list()
+for x in range(0, 1000):
+    if(x%3==0 or x%5==0):
+        my_array.append(x)
+
+my_sum = sum(my_array)
+print(my_sum)
